@@ -55,4 +55,12 @@ class User extends Authenticatable
     {
         return $this->clave[0].$this->clave[1];
     }
+
+    public function scopeClave($query, $keyWord)
+    {
+        if( empty($keyWord) ){
+            return;
+        }
+        return $query->Where('clave', 'like', $keyWord);
+    }
 }

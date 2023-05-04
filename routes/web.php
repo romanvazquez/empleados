@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Livewire\Users;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,4 +22,6 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('home', function () {
         return view('home');
     })->name('home');
+
+    Route::get('usuarios', Users::class)->name('usuarios');
 });
