@@ -272,7 +272,7 @@ class Empleados extends Component
         try {
             $empleado = Empleado::find($this->selectedId);
 
-            $this->confirm('¿Desea eliminar a '.$empleado->nombre.'?', [
+            $this->confirm('¿Quieres eliminar a '.$empleado->nombre.'?', [
                 'confirmButtonText' =>  'Eliminar',
                 'cancelButtonText' => 'Cancelar',
                 'onConfirmed' => [

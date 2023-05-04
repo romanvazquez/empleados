@@ -48,7 +48,7 @@ class Users extends Component
         ])
         ->layout(\App\View\Components\AppLayout::class, [
             'title' => 'Usuarios',
-            // 'layout' => 'vertical',
+            // 'layout' => '',
             'isFluid' => false,
             'isComponent' => true
         ]);
