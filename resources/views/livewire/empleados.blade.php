@@ -158,7 +158,7 @@
         </div>
     </div>
 
-    <div wire:ignore.self class="modal fade" id="modal-create-employee" tabindex="-1" role="dialog" aria-hidden="true">
+    <div wire:ignore.self class="modal modal-blur fade" id="modal-create-employee" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -293,7 +293,7 @@
         </div>
     </div>
 
-    <div wire:ignore.self class="modal fade" id="modal-edit-employee" tabindex="-1" role="dialog" aria-hidden="true">
+    <div wire:ignore.self class="modal modal-blur fade" id="modal-edit-employee" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
