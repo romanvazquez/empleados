@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Livewire\Users;
+use App\Http\Livewire\Empleados;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,4 +25,6 @@ Route::group(['middleware' => 'auth'], function () {
     })->name('home');
 
     Route::get('usuarios', Users::class)->name('usuarios');
+
+    Route::get('empleados', Empleados::class)->name('empleados');
 });
